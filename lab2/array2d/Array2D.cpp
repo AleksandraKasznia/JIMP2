@@ -34,7 +34,7 @@ int **NewArray2D(int n_rows, int n_columns){
 }
 
 void FillArray2D(int n_rows, int n_columns, int *const *array){
-    int counter = 0;
+    int counter = 1;
     for (int i = 0; i < n_rows; i++){
         for (int j = 0; j < n_columns; j++){
             array[i][j] = counter;
