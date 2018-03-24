@@ -1,5 +1,5 @@
 //
-// Created by pawel on 09.03.18.
+// Created by okasz on 09.03.18.
 //
 
 #ifndef JIMP_EXERCISES_POLYBIUS_H
@@ -12,8 +12,7 @@
 
 std::string PolybiusCrypt(std::string message);
 std::string PolybiusDecrypt(std::string crypted);
-bool IsLowercase(const std::string &message, int current_place);
-bool IsUppercase(const std::string &message, int current_place);
+
 
 
 
