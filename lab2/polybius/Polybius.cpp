@@ -38,8 +38,9 @@ std::string PolybiusCrypt(std::string message){
 std::string PolybiusDecrypt(std::string crypted){
     std::string decrypted_message, key;
     int iterator = 0;
+    unsigned long len = crypted.length();
 
-    if (crypted.length() <= 1){
+    if (len <= 1){
         return "";
     }
 
@@ -47,7 +48,7 @@ std::string PolybiusDecrypt(std::string crypted){
         key += crypted[iterator];
         key += crypted[iterator + 1];
         decrypted_message += decrypt[key];
-
+        key = "";
         iterator += 2;
     }
     return decrypted_message;
