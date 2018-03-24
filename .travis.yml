@@ -27,6 +27,14 @@ script:
   - tests/exampletest/example_examplelibrary_tests
   - make lab1_palindrome_tests
   - tests/lab1test/lab1_palindrome_tests
+  - make lab2_array_2d_step1_tests
+  - tests/lab2test/lab2_array_2d_step1_tests
+  - make lab2_array_2d_step2_tests
+  - tests/lab2test/lab2_array_2d_step2_tests
+  - make lab2_array_2d_step3_tests
+  - tests/lab2test/lab2_array_2d_step3_tests
+  - make lab2_array_2d_step4_tests
+  - tests/lab2test/lab2_array_2d_step4_tests
   
   
 notifications:

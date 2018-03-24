@@ -1,5 +1,5 @@
 //
-// Created by galkpawe on 09.03.18.
+// Created by okasz on 09.03.18.
 //
 
 #ifndef JIMP_EXERCISES_ARRAY2D_H
