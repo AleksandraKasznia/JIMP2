@@ -26,7 +26,7 @@ script:
   - make example_examplelibrary_tests
   - tests/exampletest/example_examplelibrary_tests
   - make lab1_palindrome_tests
-  - tests/lab1test/lab1_palindrome_testes
+  - tests/lab1test/lab1_palindrome_tests
   
   
 notifications:
