@@ -35,6 +35,10 @@ script:
   - tests/lab2test/lab2_array_2d_step3_tests
   - make lab2_array_2d_step4_tests
   - tests/lab2test/lab2_array_2d_step4_tests
+  - make lab2_polybius_step1_tests
+  - tests/lab2test/lab2_polybius_step1_tests
+  - make lab2_polybius_step2_tests
+  - tests/lab2test/lab2_polybius_step2_tests
   
   
 notifications:
