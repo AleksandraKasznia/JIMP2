@@ -29,6 +29,8 @@ script:
   - tests/lab3test/lab3_smart_tree_step5_tests
   - make lab4_square_tests
   - tests/lab4test/lab4_square_tests
+  - make lab1_palindome_tests
+  - tests/lab1test/lab1_palindrome
   
   
 notifications:
