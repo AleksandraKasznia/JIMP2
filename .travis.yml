@@ -25,11 +25,7 @@ script:
     cmake -DCMAKE_CXX_COMPILER=$CXX ..
   - make example_examplelibrary_tests
   - tests/exampletest/example_examplelibrary_tests
-  - make lab3_smart_tree_step5_tests
-  - tests/lab3test/lab3_smart_tree_step5_tests
-  - make lab4_square_tests
-  - tests/lab4test/lab4_square_tests
-  - make lab1_palindome_tests
+  - make lab1_palindrome_tests
   - tests/lab1test/lab1_palindrome
   
   
