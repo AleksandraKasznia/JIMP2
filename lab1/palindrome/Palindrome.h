@@ -1,11 +1,11 @@
 //
-// Created by pawel on 03.03.18.
+// Created by okasz on 03.03.18.
 //
 
 #ifndef JIMP_EXERCISES_PALINDROME_H
 #define JIMP_EXERCISES_PALINDROME_H
 
-#include "string"
+#include <string>
 
 bool is_palindrome(std::string str);
 

@@ -1,28 +1,33 @@
 //
-// Created by pawel on 03.03.18.
+// Created by okasz on 03.03.18.
 //
 #include <iostream>
 #include "Palindrome.h"
 
 int main() {
-    int wybor;
-    std::cout << "1.Sprawdz palindrom" << std::endl;
-    std::cout << "0.Wyjscie" << std::endl;
-    std::cin >> wybor;
-    switch(wybor) {
-        case 1: {
-            std::string str;
-            std::cin >> str;
-            if (is_palindrome(str)) std::cout << "Jest" << std::endl;
-            else std::cout << "Nie jest" << std::endl;
+    int choice;
+    std::string word;
+    std::cout << is_palindrome("kajaki");
+    std::cout << "Wyjscie - wybierz 1" << std::endl << "Sprawdz palindrom - wybierz 2" << std::endl;
+    std::cin >> choice;
+    switch (choice) {
+        case 2: {
+            std::cout << "Podaj palindrom" << std::endl;
+            std::cin >> word;
+            if (is_palindrome(word) == 1) {
+                std::cout << "Jest";
+            } else {
+                std::cout << "Nie jest";
+            }
         }
             break;
-
-        case 0:
+        case 1: {
             return 0;
-
-        default:
+        }
             break;
+        default: {
+            break;
+        }
     }
     return 0;
 }
